@@ -1,6 +1,9 @@
-/**
-    NAVBAR
- */
+/* GLOBAL */
+.row {
+    margin: 0;
+}
+
+/* NAVBAR */
 .custom-navbar-light {
     background: #449DD1 !important;
     z-index: 3;
@@ -103,6 +106,13 @@
     text-decoration: none;
     outline: none !important;
 }
-/**
-    NAVBAR END
- */
+/* NAVBAR END */
+
+/* ROWS */
+.row.first {
+    background-color: #78C0E0;
+}
+.row.first h3 {
+    font-size: 25px;
+    color: #0E0E52;
+}

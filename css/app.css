@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #0E0E52;
+    border-color: #0E0E52;
+}
+
 /* NAVBAR */
 .custom-navbar-light {
     background: #449DD1 !important;
@@ -106,13 +112,109 @@
     text-decoration: none;
     outline: none !important;
 }
+
 /* NAVBAR END */
 
 /* ROWS */
 .row.first {
     background-color: #78C0E0;
 }
+
 .row.first h3 {
     font-size: 25px;
     color: #0E0E52;
+}
+
+.row.second .button {
+    display: inline-block;
+    position: relative;
+    padding: 0.8em 4.7em 0.8em 1.4em;
+    background: #78C0E0;
+    border: none;
+    color: white;
+    transition: 0.2s;
+    min-height: 3em;
+    font-size: 30px;
+}
+.row.second .button:before,
+.row.second .button:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 2.8em;
+    content: "\00a0";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: center;
+    transition: 0.2s;
+    transform-origin: 50% 60%;
+}
+.row.second .button:before {
+    background: rgba(0, 0, 0, 0.1);
+}
+.row.second .button:hover {
+    background: #0079a5;
+    text-decoration: none;
+}
+.row.second .button:active,
+.row.second .button:focus {
+    background: #002e3f;
+    outline: none;
+}
+.row.second .button {
+    min-width: 15em;
+}
+
+.row.second .phone {
+    background: #139675;
+}
+.row.second .phone:hover {
+    background: #0d6952;
+}
+.row.second .phone:active,
+.row.second .phone:focus {
+    background: #083b2e;
+}
+.row.second .phone:after {
+    content: "\F095";
+    -webkit-animation: wiggle 0.1s alternate ease infinite;
+    animation: wiggle 0.1s alternate ease infinite;
+}
+@keyframes wiggle {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+
+.row.second .search:after {
+    content: "\f232";
+    font-family: "Font Awesome 5 Brands";
+    -webkit-animation: zoom 0.4s alternate ease infinite;
+    animation: zoom 0.4s alternate ease infinite;
+    width: 97px;
+    font-size: 2.6em;
+    line-height: 35px;
+    vertical-align: top;
+}
+.row.second .search:hover:after {
+    /*-webkit-animation: none;*/
+    /*-webkit-transform: scale(1.4);*/
+    /*animation: none;*/
+    /*transform: scale(1.4);*/
+}
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.7);
+    }
 }

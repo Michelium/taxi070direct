@@ -1,12 +1,19 @@
 /* GLOBAL */
+body * {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 .row {
     margin: 0;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #0E0E52;
-    border-color: #0E0E52;
+    background-color: #78C0E0;
+    border-color: #78C0E0;
+}
+.btn-primary:hover {
+    background: #0079a5;
+    border-color: #0079a5;
 }
 
 /* NAVBAR */
@@ -217,4 +224,9 @@
     to {
         transform: scale(0.7);
     }
+}
+
+.row.second section {
+    height: 300px;
+    padding: 3em 0;
 }

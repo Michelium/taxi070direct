@@ -172,8 +172,13 @@ body * {
     background: #002e3f;
     outline: none;
 }
-.row.second .button {
-    min-width: 15em;
+@media (max-width: 1350px) {
+    .row.second .search:after {
+        width: 71px;
+    }
+    .row.second .button {
+        font-size: 22px;
+    }
 }
 
 .row.second .phone {
@@ -211,11 +216,10 @@ body * {
     line-height: 35px;
     vertical-align: top;
 }
-.row.second .search:hover:after {
-    /*-webkit-animation: none;*/
-    /*-webkit-transform: scale(1.4);*/
-    /*animation: none;*/
-    /*transform: scale(1.4);*/
+@media (max-width: 1350px) {
+    .row.second .search:after {
+        width: 71px;
+    }
 }
 @keyframes zoom {
     from {

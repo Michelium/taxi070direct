@@ -123,6 +123,7 @@ body * {
 /* NAVBAR END */
 
 /* ROWS */
+/* first */
 .row.first {
     background-color: #78C0E0;
 }
@@ -132,6 +133,7 @@ body * {
     color: #0E0E52;
 }
 
+/* second */
 .row.second .button {
     display: inline-block;
     position: relative;
@@ -204,8 +206,6 @@ body * {
         transform: rotate(10deg);
     }
 }
-
-
 .row.second .search:after {
     content: "\f232";
     font-family: "Font Awesome 5 Brands";
@@ -233,4 +233,17 @@ body * {
 .row.second section {
     height: 300px;
     padding: 3em 0;
+}
+
+/* third */
+.row.third table thead {
+    background-color: #449DD1;
+    color: white;
+}
+.row.third table tbody tr:hover {
+    background-color: #78C0E0;
+    font-weight: bolder;
+}
+.row.third table tbody tr td:first-of-type {
+    width: 50%;
 }

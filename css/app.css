@@ -19,8 +19,8 @@ body * {
 
 .btn-primary {
     color: #fff;
-    background-color: #78C0E0;
-    border-color: #78C0E0;
+    background-color: #184287;
+    border-color: #184287;
 }
 .btn-primary:hover {
     background: #0079a5;
@@ -29,7 +29,7 @@ body * {
 
 /* NAVBAR */
 .custom-navbar-light {
-    background: #449DD1 !important;
+    background: #184287 !important;
     z-index: 3;
 }
 
@@ -40,7 +40,7 @@ body * {
     }
 
     .custom-navbar-light .row:first-of-type {
-        background: #449DD1 !important;
+        background: #184287 !important;
     }
 }
 
@@ -134,12 +134,12 @@ body * {
 /* ROWS */
 /* first */
 .row.first {
-    background-color: #78C0E0;
+    background-color: #15BFF3;
 }
 
 .row.first h3 {
     font-size: 25px;
-    color: #0E0E52;
+    color: white;
 }
 
 /* second */
@@ -190,14 +190,11 @@ body * {
 }
 
 .phone {
-    background: #139675;
+    background: #27A219;
 }
 .phone:hover {
-    background: #0d6952;
-}
-.phone:active,
-.phone:focus {
-    background: #083b2e;
+    background: #1d7014;
+    color: white;
 }
 .phone:after {
     content: "\F095";
@@ -212,6 +209,7 @@ body * {
         transform: rotate(10deg);
     }
 }
+
 .search:after {
     content: "\f232";
     font-family: "Font Awesome 5 Brands";
@@ -221,6 +219,13 @@ body * {
     font-size: 2.6em;
     line-height: 35px;
     vertical-align: top;
+}
+.search {
+    background: #184287;
+}
+.search:hover {
+    background: #0e274f;
+    color: white;
 }
 @media (max-width: 1350px) {
     .search:after {
@@ -243,11 +248,11 @@ body * {
 
 /* third */
 .row.third table thead {
-    background-color: #449DD1;
+    background-color: #184287;
     color: white;
 }
 .row.third table tbody tr:hover {
-    background-color: #78C0E0;
+    background-color: #15BFF3;
     font-weight: bolder;
 }
 .row.third table tbody tr td:first-of-type {

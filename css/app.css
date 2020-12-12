@@ -74,6 +74,12 @@ body * {
     }
 }
 
+@media (max-width: 320px) {
+    .custom-navbar-light h3 {
+        font-size: 25px;
+    }
+}
+
 .custom-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -129,6 +135,12 @@ body * {
 .custom-navbar-light .navbar-toggler:hover, .custom-navbar-light .navbar-toggler:focus {
     text-decoration: none;
     outline: none !important;
+}
+@media (max-width: 443px) {
+    .custom-navbar-light .offset-2 {
+        margin: unset;
+        padding-left: unset;
+    }
 }
 
 /* ROWS */
@@ -357,7 +369,10 @@ body * {
     }
 }
 @media (max-width: 443px) {
+    .footer {
+        height: 65px;
+    }
     .footer a {
-        font-size: 13px;
+        font-size: 12px;
     }
 }

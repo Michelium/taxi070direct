@@ -138,8 +138,29 @@ body * {
 }
 
 .row.first h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+}
+
+.row.first a {
+    background: #27A219;
+    font-size: 25px;
+    -webkit-animation: toggle 2s alternate ease infinite;
+    animation: toggle 2s alternate ease infinite;
+}
+@keyframes toggle {
+    0% {
+        opacity: 0;
+    }
+    33% {
+        opacity: 1;
+    }
+    66% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 /* second */

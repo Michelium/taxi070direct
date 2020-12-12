@@ -313,6 +313,19 @@ body * {
     }
 }
 @media (max-width: 551px) {
+    .footer .search:after {
+        font-size: 4.0em;
+        right: -16px;
+        width: 88px;
+        line-height: 49px;
+    }
+    .footer .phone:after {
+        font-size: 2.8em;
+        right: -18px;
+        -webkit-animation: wiggle 0.2s alternate ease infinite;
+        animation: wiggle 0.2s alternate ease infinite;
+    }
+
     .footer a {
         font-size: 17px;
     }

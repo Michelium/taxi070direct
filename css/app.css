@@ -184,9 +184,6 @@ body * {
     outline: none;
 }
 @media (max-width: 1350px) {
-    .search:after {
-        width: 71px;
-    }
    .button {
         font-size: 22px;
     }
@@ -289,6 +286,10 @@ body * {
         right: 0;
     }
 
+    .footer .search:after {
+        width: 88px;
+        line-height: 49px;
+    }
     .footer .phone:after {
         -webkit-animation: wiggle 0.2s alternate ease infinite;
         animation: wiggle 0.2s alternate ease infinite;

@@ -9,7 +9,7 @@
     <title>Taxi070Direct</title>
 <link href="http://taxi070direct.nl/boeking/core/framework/libs/pj/css/pj.bootstrap.min.css" type="text/css" rel="stylesheet" />
 <link href="http://taxi070direct.nl/boeking/index.php?controller=pjFrontEnd&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/app.css?v=0.5">
+    <link rel="stylesheet" href="css/app.css?v=0.6">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
@@ -47,7 +47,7 @@
     </div>
 </div>
 <div class="row mt-5">
-    <div class="col-lg-8 offset-lg-2 d-none d-lg-block">
+    <div class="col-lg-8 offset-lg-2 d-none d-lg-block px-0 px-sm-2">
         <section class="bg-light text-center">
             <div class="container py-5">
                 <h4 class="text-left mb-2">Bel ons gerust op of stuur ons een berichtje!</h4>
@@ -58,7 +58,7 @@
     </div>
 </div>
 <div class="row second mt-5">
-    <div class="col-12 col-md-12 offset-md-0 col-lg-8 offset-lg-2">
+    <div class="col-12 col-md-12 offset-md-0 col-lg-8 offset-lg-2 px-0 px-sm-2">
         <section class="bg-light text-center">
             <div class="container">
                 <h4 class="text-left mb-2">Boek hier uw reis:</h4>
@@ -68,7 +68,7 @@
     </div>
 </div>
 <div class="row third my-5">
-    <div class="col-12 col-lg-8 offset-lg-2">
+    <div class="col-12 col-lg-8 offset-lg-2  px-0 px-sm-2">
         <section class="bg-light text-center p-lg-3">
             <h3 class="py-2">TAXI070DIRECT TARIEVEN:</h3>
             <table class="table table-hover table-striped table-responsive-md text-left">

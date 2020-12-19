@@ -4,10 +4,11 @@
 html {
     position: relative;
     min-height: 100%;
+    height: unset!important;
 }
 @media (max-width: 992px) {
     body {
-        margin-bottom: 70px; /* footer height */
+        margin-bottom: 90px; /* footer height */
     }
 }
 body * {
@@ -275,8 +276,11 @@ body * {
 }
 
 .row.second section {
-    height: 300px;
     padding: 3em 0;
+}
+.row.second .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* third */
@@ -295,6 +299,7 @@ body * {
 /* FOOTER */
 @media (max-width: 992px) {
     .footer {
+        z-index: 10;
         position: fixed;
         bottom: 0;
         width: 100%;

@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
           crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/app.css?v=0.5">
     <title>Taxi070Direct</title>
+<link href="http://taxi070direct.nl/boeking/core/framework/libs/pj/css/pj.bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="http://taxi070direct.nl/boeking/index.php?controller=pjFrontEnd&action=pjActionLoadCss" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css?v=0.5">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg custom_navbar custom-navbar-light py-3" id="custom-navbar">
@@ -24,10 +26,10 @@
     </div>
     <div class="collapse navbar-collapse" id="custom-nav">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Diensten</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Tarieven</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="services.php" class="nav-link">Diensten</a></li>
+            <li class="nav-item"><a href="prijs.php" class="nav-link">Tarieven</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -39,37 +41,30 @@
         <h3 class="text-center"><i>24/7 bereikbaar</i></h3>
     </div>
 </div>
-<div class="row second mt-5">
-    <div class="col-12 col-md-12 offset-md-0 col-lg-4 offset-lg-2">
-        <section class="bg-light  text-center">
-            <div class="container">
-                <h3 class="jumbotron-heading">Boek uw reis</h3>
-                <span class="text-warning">(Hier komt het boekingsformulier)</span>
-                <form>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Ophaalplaats" disabled>
-                    </div>
-                    <div class="form-group">
-                        <input type="name" class="form-control" placeholder="Bestemming" disabled>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                </form>
-            </div>
-        </section>
-    </div>
-    <div class="col-lg-4 d-none d-lg-block">
+<div class="row mt-5">
+    <div class="col-lg-8 offset-lg-2 d-none d-lg-block">
         <section class="bg-light text-center">
-            <div class="container">
-                <h4 class="text-left">Bel ons gerust op of stuur ons een berichtje!</h4>
+            <div class="container py-5">
+                <h4 class="text-left mb-2">Bel ons gerust op of stuur ons een berichtje!</h4>
                 <a href="tel:+31702042828" class="button btn-block phone">070 204 28 28</a>
                 <a href="https://api.whatsapp.com/send?phone=+31702042828" class="button btn-block search">Whatsapp ons!</a>
             </div>
         </section>
     </div>
 </div>
-<div class="row third mt-5">
+<div class="row second mt-5">
+    <div class="col-12 col-md-12 offset-md-0 col-lg-8 offset-lg-2">
+        <section class="bg-light text-center">
+            <div class="container">
+                <h4 class="text-left mb-2">Boek hier uw reis:</h4>
+                <script type="text/javascript" src="http://taxi070direct.nl/boeking/index.php?controller=pjFrontEnd&action=pjActionLoad"></script>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="row third my-5">
     <div class="col-12 col-lg-8 offset-lg-2">
-        <section class="bg-light text-center text-capitalize p-lg-3">
+        <section class="bg-light text-center p-lg-3">
             <h3 class="py-2">TAXI070DIRECT TARIEVEN:</h3>
             <table class="table table-hover table-striped table-responsive-md text-left">
                 <thead>
@@ -79,11 +74,11 @@
                     <th>BUS 5-8 PERSONEN</th>
                 </tr>
                 </thead>
-                <tbody class="">
+                <tbody>
                 <tr>
-                    <td>Den Haag - Schiphol</td>
-                    <td>€ 60,-</td>
-                    <td>€ 70,-</td>
+                    <td>Den Haag - Schiphol<br>Schiphol ophalen</td>
+                    <td>€ 60,-<br>€ 67,-</td>
+                    <td>€ 70,-<br>€ 75,-</td>
                 </tr>
                 <tr>
                     <td>Den Haag - Rotterdam Airport</td>
@@ -92,8 +87,8 @@
                 </tr>
                 <tr>
                     <td>Den Haag - Amsterdam</td>
-                    <td>€ 80,-</td>
-                    <td>€ 85,-</td>
+                    <td>vanaf <wbr>€ 80,-</td>
+                    <td>vanaf <wbr>€ 85,-</td>
                 </tr>
                 <tr>
                     <td>Den Haag - Leiden</td>
@@ -104,6 +99,11 @@
                     <td>Den Haag - Utrecht</td>
                     <td>€ 90,-</td>
                     <td>€ 100,-</td>
+                </tr>
+                <tr>
+                    <td>Den Haag - Rotterdam</td>
+                    <td>vanaf <wbr>€ 50,-</td>
+                    <td>vanaf <wbr>€ 60,-</td>
                 </tr>
                 </tbody>
             </table>

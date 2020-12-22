@@ -45,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/stil.css">
+<!--    <link rel="stylesheet" href="css/stil.css">-->
     <link rel="stylesheet" href="css/app.css?v=0.7">
 <!--  Clickcease.com tracking-->
 <script type='text/javascript'>var script = document.createElement('script');
@@ -81,7 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="services.php" class="nav-link">Diensten</a></li>
             <li class="nav-item"><a href="prijs.php" class="nav-link">Tarieven</a></li>
-            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link active">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -141,7 +141,7 @@ body{
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email Adres *</label>
+                    <label for="email">E-mailadres *</label>
                     <input type="text" name="email" maxlength="80" size="30" class="form-control">
                 </div>
 

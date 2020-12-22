@@ -48,7 +48,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/stil.css">
+<!--    <link rel="stylesheet" href="css/stil.css">-->
     <link rel="stylesheet" href="css/app.css?v=0.7">
     <!--  Clickcease.com tracking-->
     <script type='text/javascript'>var script = document.createElement('script');
@@ -117,7 +117,7 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="services.php" class="nav-link">Diensten</a></li>
-            <li class="nav-item"><a href="prijs.php" class="nav-link">Tarieven</a></li>
+            <li class="nav-item"><a href="prijs.php" class="nav-link active">Tarieven</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>
     </div>
@@ -131,7 +131,7 @@
     </div>
 </div>
 <div class="container" id="price">
-    <div class="row bg-light my-5 pt-4">
+    <div class="row bg-light my-5 py-4">
         <div class="col-12">
             <h1 style="font-size:26px;">PRIJS TABEL</h1>
             <p class="lead"></p>
@@ -199,14 +199,12 @@
     </div>
 </div>
 
-<p class="container lead">
-
-
-</p>
-
-
 <div class="container">
-    <img class="featurette-image img-responsive center-block lazy" data-original="images/paymethods.jpg" alt="pay methods">
+    <div class="row mb-5 py-3 bg-light">
+        <div class="col-12">
+            <img class="featurette-image img-responsive center-block lazy" data-original="images/paymethods.jpg" alt="pay methods">
+        </div>
+    </div>
 </div>
 
 

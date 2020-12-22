@@ -46,7 +46,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/stil.css">
+<!--    <link rel="stylesheet" href="css/stil.css">-->
     <link rel="stylesheet" href="css/app.css?v=0.7">
     <!--  Clickcease.com tracking-->
     <script type='text/javascript'>var script = document.createElement('script');
@@ -86,7 +86,7 @@
     <div class="collapse navbar-collapse" id="custom-nav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="services.php" class="nav-link">Diensten</a></li>
+            <li class="nav-item"><a href="services.php" class="nav-link active">Diensten</a></li>
             <li class="nav-item"><a href="prijs.php" class="nav-link">Tarieven</a></li>
             <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>

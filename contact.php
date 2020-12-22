@@ -35,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <title>Contact - Time Taxi</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/ie10-viewport-bug-workaround.css">
     <script src="js/ie-emulation-modes-warning.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -46,6 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <![endif]-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/stil.css">
+    <link rel="stylesheet" href="css/app.css?v=0.7">
 <!--  Clickcease.com tracking-->
 <script type='text/javascript'>var script = document.createElement('script');
 script.async = true; script.type = 'text/javascript';
@@ -63,43 +64,35 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TTD586"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <div>
-               <i class="fa fa-phone-square" style="margin-top: 10px" aria-hidden="true"><a href="tel:+31702042828"> Call +3170 204 28 28</a> </i>
-               <a href="mailto:info@taxi070direct.nl"><i class="fa fa-envelope" aria-hidden="true"> info@taxi070direct.nl </i></a>
-             </div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                     <li>
-                     <a href="index.php">Home</a>
-                    </li>
-                    <li>
-                        <a href="services.php">Diensten</a>
-                    </li>
-                    <li>
-                        <a href="prijs.php">Tarieven</a>
-                    </li>
-                    <li>
-                        <a href="contact.php">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-
+<nav class="navbar navbar-expand-lg custom_navbar custom-navbar-light py-3" id="custom-navbar">
+    <div class="row px-3 pt-3 pt-lg-0 w-100">
+        <div class="col-4 offset-2">
+            <a href="index.html" class="navbar-brand"><h3 class="text-white font-weight-bold">Taxi070Direct</h3></a>
         </div>
-        <!-- /.container -->
+        <div class="col-4 ml-auto">
+            <button class="navbar-toggler collapsed float-right mt-1" type="button" data-toggle="collapse" data-target="#custom-nav" aria-controls="custom-nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse" id="custom-nav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="services.php" class="nav-link">Diensten</a></li>
+            <li class="nav-item"><a href="prijs.php" class="nav-link">Tarieven</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
 </nav>
+<div class="row first">
+    <div class="mx-auto d-lg-none">
+        <a href="tel:+31702042828" class="btn btn-success text-center mt-2"><span>070 204 28 28</span></a>
+    </div>
+    <div class="col-12 mt-3 mb-2 mx-auto">
+        <h3 class="text-center"><i>24/7 bereikbaar</i></h3>
+    </div>
+</div>
 <style type="text/css">
 *{
   box-sizing:border-box;
@@ -127,91 +120,98 @@ body{
 }
 
 </style>
-  <div class="container">
-   <h1 style="font-size:26px;">CONTACTGEGEVENS</h1>
-      <h4>Stuur ons een e-mail</h4>
-<form name="contactform" method="post" action="send_form_email.php">
-
-<div class="form-group">
-  <label for="first_name">Naam *</label>
-  <input  type="text" name="first_name" maxlength="50" size="30" class="form-control">
-</div>
-<div class="form-group">
-  <label for="last_name">Achternaam *</label>
-  <input  type="text" name="last_name" maxlength="50" size="30" class="form-control">
-</div>
-
-<div class="form-group">
-  <label for="email">Email Adres *</label>
-  <input  type="text" name="email" maxlength="80" size="30" class="form-control">
-</div>
-
-<div class="form-group">
-  <label for="telephone">Telefoon *</label>
-  <input  type="text" name="telephone" maxlength="30" size="30" class="form-control">
-</div>
-
-<div class="form-group">
-  <label for="comments">Bericht *</label>
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6" class="form-control"></textarea>
-</div>
-
-<div class="form-group">
-  <input type="submit" value="Verzend" class="btn btn-default">   <a href="http://www.taxi070direct.nl/">taxi070direct.nl</a>
-</div>
-
-</form>
-  </div>
-  <hr class="featurette-divider">
-
-
-
-  <div class="container">
-
-  <div class="container">
-      <address class="col-sm-3">
-  <strong>TimeTaxi Den Haag</strong>
-  <br>
-<strong>Straat:</strong>De Dreef 185
-<br>
-<strong>Postcode:</strong>2542 NE
-<br>
-<strong>Plaats:</strong>DEN HAAG
-<br>
-<strong>Email:</strong><a href="mailto:info@timetaxi.nl">info@taxi070direct.nl</a>
-<br>
-<br>
-<strong>KvK:</strong>70292809
-<br>
-<strong>BTW:</strong>NL002213821B66
-<br>
-<strong></strong>
-<br>
-<strong></strong>
-<br>
-</address>
-
+<div class="container">
+    <div class="row bg-light mt-5 pt-4 rounded">
+        <div class="col-12">
+            <h1 style="font-size:26px;">CONTACTGEGEVENS</h1>
+            <h4>Stuur ons een e-mail</h4>
+        </div>
     </div>
-  </div>
+    <div class="row bg-light">
+        <div class="col-12">
+            <form name="contactform" method="post" action="send_form_email.php">
 
-      <div class="container">
-          <br />
-          <div class="text-center center-block">
+                <div class="form-group">
+                    <label for="first_name">Naam *</label>
+                    <input type="text" name="first_name" maxlength="50" size="30" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Achternaam *</label>
+                    <input type="text" name="last_name" maxlength="50" size="30" class="form-control">
+                </div>
 
-              <a href="#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-          </div>
-      </div>
-  <hr class="featurette-divider">
-      </div><!-- /.container -->
+                <div class="form-group">
+                    <label for="email">Email Adres *</label>
+                    <input type="text" name="email" maxlength="80" size="30" class="form-control">
+                </div>
 
-        <footer class="container">
+                <div class="form-group">
+                    <label for="telephone">Telefoon *</label>
+                    <input type="text" name="telephone" maxlength="30" size="30" class="form-control">
+                </div>
 
-        </footer>
+                <div class="form-group">
+                    <label for="comments">Bericht *</label>
+                    <textarea name="comments" maxlength="1000" cols="25" rows="6" class="form-control"></textarea>
+                </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-    <script src="js/site.js"></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+                <div class="form-group">
+                    <input type="submit" value="Verzend" class="btn btn-primary"> <a class="ml-3" href="http://www.taxi070direct.nl/">taxi070direct.nl</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="container">
+    <div class="row rounded pt-3" style="background: #15BFF3">
+        <div class="col-12">
+            <address class="col-sm-3">
+                <strong>TimeTaxi Den Haag</strong>
+                <br>
+                <strong>Straat:</strong> De Dreef 185
+                <br>
+                <strong>Postcode:</strong> 2542 NE
+                <br>
+                <strong>Plaats:</strong> DEN HAAG
+                <br>
+                <strong>Email:</strong><a class="text-black-50" href="mailto:info@taxi070direct.nl"> info@taxi070direct.nl</a>
+                <br>
+                <br>
+                <strong>KvK:</strong> 70292809
+                <br>
+                <strong>BTW:</strong> NL002213821B66
+                <br>
+                <strong></strong>
+                <br>
+                <strong></strong>
+                <br>
+            </address>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <br/>
+    <div class="text-center center-block">
+
+        <a href="mailto:info@taxi070direct.nl"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+    </div>
+</div>
+<hr class="featurette-divider">
+</div><!-- /.container -->
+
+<footer class="container">
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script src="js/site.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>

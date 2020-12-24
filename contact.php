@@ -176,7 +176,7 @@ body{
     <div class="row rounded pt-3" style="background: #15BFF3">
         <div class="col-12">
             <address class="col-sm-3">
-                <strong>TimeTaxi Den Haag</strong>
+                <strong>MAN TAXI</strong>
                 <br>
                 <strong>Straat:</strong> De Dreef 185
                 <br>
